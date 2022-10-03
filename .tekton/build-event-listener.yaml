@@ -55,7 +55,7 @@ spec:
         resolver: bundles
         resource:
         - name: bundle
-          value: gcr.io/tekton-releases/catalog/upstream/git-clone:0.1
+          value: gcr.io/tekton-releases/catalog/upstream/git-clone:0.1@sha256:9ad0d0fe0b675622d02584e99cc2c6725143c52b481c3731c289ec767d72f7fd
         - name: name
           value: git-clone
         - name: kind
